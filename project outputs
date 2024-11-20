@@ -1,0 +1,86 @@
+outputs:
+PS C:\Users\高嘉硕\Desktop\username-A1>  c:; cd 'c:\Users\高嘉硕\Desktop\username-A1'; & 'C:\Program Files\Java\jdk-22\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\高嘉硕\AppData\Roaming\Code\User\workspaceStorage\2f44db086cd2ccbb131124291b96d4aa\redhat.java\jdt_ws\username-A1_a49cdaa\bin' 'AssignmentOne'
+Health Professional ID: 1
+Name: Dr. Bruce
+Specialization: General Practitioner     
+Accepts Medicare: true
+Health Professional ID: 2
+Name: Dr. Gracia
+Specialization: General Practitioner     
+Accepts Medicare: false
+Health Professional ID: 3
+Name: Dr. Vincent
+Specialization: General Practitioner     
+Accepts Medicare: true
+Health Professional ID: 4
+Name: Dr. Kari
+Specialization: Specialist
+Area of Expertise: Cardiology
+Health Professional ID: 5
+Name: Dr. Scott
+Specialization: Specialist
+Area of Expertise: Neurology
+------------------------------
+Patient Name: Wendy
+Patient Mobile: 1649265834
+Preferred Time Slot: 08:00
+Doctor Details:
+Health Professional ID: 1
+Name: Dr. Bruce
+Specialization: General Practitioner     
+Accepts Medicare: true
+------------------------------
+Patient Name: Paz
+Patient Mobile: 6798233478
+Preferred Time Slot: 10:00
+Doctor Details:
+Health Professional ID: 2
+Name: Dr. Gracia
+Specialization: General Practitioner     
+Accepts Medicare: false
+------------------------------
+Patient Name: Peggy
+Patient Mobile: 1945384638
+Preferred Time Slot: 14:30
+Doctor Details:
+Health Professional ID: 4
+Name: Dr. Kari
+Specialization: Specialist
+Area of Expertise: Cardiology
+------------------------------
+Patient Name: Tomas
+Patient Mobile: 5286423126
+Preferred Time Slot: 09:00
+Doctor Details:
+Health Professional ID: 5
+Name: Dr. Scott
+Specialization: Specialist
+Area of Expertise: Neurology
+------------------------------
+Patient Name: Paz
+Patient Mobile: 6798233478
+Preferred Time Slot: 10:00
+Doctor Details:
+Health Professional ID: 2
+Name: Dr. Gracia
+Specialization: General Practitioner     
+Accepts Medicare: false
+------------------------------
+Patient Name: Peggy
+Patient Mobile: 1945384638
+Preferred Time Slot: 14:30
+Doctor Details:
+Health Professional ID: 4
+Name: Dr. Kari
+Specialization: Specialist
+Area of Expertise: Cardiology
+------------------------------
+Patient Name: Tomas
+Patient Mobile: 5286423126
+Preferred Time Slot: 09:00
+Doctor Details:
+Health Professional ID: 5
+Name: Dr. Scott
+Specialization: Specialist
+Area of Expertise: Neurology
+------------------------------
