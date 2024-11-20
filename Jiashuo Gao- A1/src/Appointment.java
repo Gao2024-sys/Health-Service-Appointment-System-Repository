@@ -14,7 +14,7 @@ public class Appointment {
 
 
     // Constructor with parameters
-
+     // Constructor to initialize the appointment information
     public Appointment(String patientName, String patientMobile, String preferredTimeSlot, HealthProfessional doctor) {
 
         this.patientName = patientName;
@@ -41,7 +41,7 @@ public class Appointment {
 
         System.out.println("Doctor Details:");
 
-        doctor.printDetails();
+        doctor.printDetails();// Print the doctor's details by calling printDetails() on the doctor object
 
     }
 
