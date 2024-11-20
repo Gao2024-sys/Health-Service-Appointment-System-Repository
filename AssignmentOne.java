@@ -15,12 +15,12 @@ public class AssignmentOne {
         Specialist specialist1 = new Specialist(4, "Dr. Kari", "Cardiology");
 
         Specialist specialist2 = new Specialist(5, "Dr. Scott", "Neurology");
+        // Calling printDetails() method, which invokes the specific class's printDetails() method due to polymorphism
+        gp1.printDetails();// Calls printDetails() of GeneralPractitioner
 
-        gp1.printDetails();
+        gp2.printDetails();// Calls printDetails() of GeneralPractitioner
 
-        gp2.printDetails();
-
-        gp3.printDetails();
+        gp3.printDetails();// Calls printDetails() of Specialist
 
         specialist1.printDetails();
 
@@ -29,7 +29,7 @@ public class AssignmentOne {
         System.out.println("------------------------------");
 
         // Part 5 – Collection of appointments
-
+            // Create an ArrayList to store multiple appointments
         ArrayList<Appointment> appointments = new ArrayList<>();
 
         appointments.add(new Appointment("Wendy", "1649265834", "08:00", gp1));
@@ -68,11 +68,11 @@ public class AssignmentOne {
 
     }
 
-
+     // Method to cancel an appointment by searching the patient's mobile number
     public static void cancelBooking(ArrayList<Appointment> appointments, String patientMobile) {
 
         boolean found = false;
-
+          // Loop through the appointments list and remove the one with the matching mobile number
         for (int i = 0; i < appointments.size(); i++) {
 
             if (appointments.get(i).patientMobile.equals(patientMobile)) {
@@ -86,7 +86,7 @@ public class AssignmentOne {
             }
 
         }
-
+        // If no appointment was found, print an error message
         if (!found) {
 
             System.out.println("No appointment found for mobile number: " + patientMobile);
