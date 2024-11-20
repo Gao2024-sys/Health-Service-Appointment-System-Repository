@@ -7,7 +7,7 @@ public class Specialist extends HealthProfessional {
     // Default constructor
 
 
-    // Constructor with parameters
+     // Overridden method to print details of the general practitioner
 
     public Specialist(int id, String name, String areaOfExpertise) {
 
@@ -20,12 +20,12 @@ public class Specialist extends HealthProfessional {
 
 
     // Method to print details
-
+     // Overridden method to print details of the specialis
     @Override
 
     public void printDetails() {
 
-        super.printDetails();
+        super.printDetails();// Call the parent class's printDetails method
 
         System.out.println("Area of Expertise: " + areaOfExpertise);
 
