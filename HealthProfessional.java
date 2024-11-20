@@ -1,17 +1,15 @@
 public class HealthProfessional {
 
-    protected int id;
+    protected int id;      // ID of the health professional
 
-    protected String name;
+    protected String name;      // Name of the health professional
 
-    protected String specialization;
-
-
+    protected String specialization; // Specialization of the health professional
 
     // Default constructor
 
 
-    // Constructor with parameters
+      // Constructor to initialize the health professional's information
 
     public HealthProfessional(int id, String name, String specialization) {
 
@@ -23,9 +21,7 @@ public class HealthProfessional {
 
     }
 
-
-
-    // Method to print details
+ // Method to print the health professional's details
 
     public void printDetails() {
 
